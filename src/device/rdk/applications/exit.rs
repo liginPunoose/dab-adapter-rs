@@ -14,8 +14,8 @@ use crate::dab::structs::ErrorResponse;
 #[allow(unused_imports)]
 use crate::dab::structs::ExitApplicationRequest;
 use crate::dab::structs::ExitApplicationResponse;
-use crate::device::rdk::interface::http_post;
 use crate::device::rdk::applications::get_state::get_app_state;
+use crate::device::rdk::interface::http_post;
 use serde::{Deserialize, Serialize};
 use serde_json::json;
 
